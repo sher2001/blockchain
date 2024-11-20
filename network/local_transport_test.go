@@ -7,8 +7,8 @@ import (
 )
 
 func Test_connect(t *testing.T) {
-	transportA := NewLocalTransport("A")
-	transportB := NewLocalTransport("B")
+	transportA := NewLocalTransport("A").(*LocalTransport)
+	transportB := NewLocalTransport("B").(*LocalTransport)
 
 	transportA.Connect(transportB)
 	assert.Equal(t, transportB, transportA.peers[transportB.Addr()])
