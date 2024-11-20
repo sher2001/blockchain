@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blockchain/types"
+	"github.com/sher2001/blockchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

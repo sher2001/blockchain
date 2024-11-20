@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/blockchain/network"
+	"github.com/sher2001/blockchain/network"
 )
 
 func main() {

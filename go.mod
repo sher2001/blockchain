@@ -1,4 +1,4 @@
-module github.com/blockchain
+module github.com/sher2001/blockchain
 
 go 1.22.2
 

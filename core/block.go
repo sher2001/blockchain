@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/blockchain/types"
+	"github.com/sher2001/blockchain/types"
 )
 
 type Header struct {
