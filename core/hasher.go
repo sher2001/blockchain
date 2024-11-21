@@ -16,3 +16,10 @@ func (BlockHasher) Hash(h *Header) types.Hash {
 	hash := sha256.Sum256(h.Bytes())
 	return types.Hash(hash)
 }
+
+type TransactionHasher struct{}
+
+func (TransactionHasher) Hash(tx *Transaction) types.Hash {
+	hash := sha256.Sum256(tx.data)
+	return types.Hash(hash)
+}
